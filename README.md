@@ -18,20 +18,20 @@ Points you to our Google Drive project folder — see note above and section bel
 ## Google Drive File Organization
 
 ### Data
-Contains a folder for each dataset, **formatted as `<dataset-name>.hf`**. Each folder contains the post-processed train and validation data, named `train_pairs.csv` and `valid_pairs.csv` respectively.
+Contains a folder for each dataset, **formatted as `<dataset-name>.hf`**. Each folder contains the post-processed train and validation data, named `<model>_train_pairs.csv` and `<model>_valid_pairs.csv` respectively. Here, `<model>` indicates how the data was formatted — as input into `T5`, `BART`, etc.
 
 - `quac.hf`
-    - … *(Hugging Face files/folders)*
-    - `train_pairs.csv`
-    - `valid_pairs.csv`
+    - … *(miscellaneous files/folders)*
+    - `...train_pairs.csv`
+    - `...valid_pairs.csv`
 - `squad.hf`
     - …
-    - `train_pairs.csv`
-    - `valid_pairs.csv` 
+    - `...train_pairs.csv`
+    - `...valid_pairs.csv` 
 - `trivia_qa_rc.hf`
     - …
-    - `train_pairs.csv`
-    - `valid_pairs.csv`  
+    - `...train_pairs.csv`
+    - `...valid_pairs.csv`  
 - … 
 
 
